@@ -9,7 +9,7 @@ int main(int argc, const char *argv[]){
     int number;
     int operations;
     std::cin >> operations;
-    for(int i=0; i<24; i++){
+    for(int i=0; i<24; i++){ //tutaj wprowadzić liczbę o jeden mniejszą niż numer linijki w której w pliku z którego wprowadzamy dan edo drzewa jest ostatni węzeł 1 drzewa
         std::cin >> number;
         BinaryTree.insert(number);
     }
